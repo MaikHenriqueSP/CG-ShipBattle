@@ -4,8 +4,8 @@ Project developed as an assignment for the MCTA008-17 Computer Graphics class, i
 <p>The game lore is a battle between ships in the space.</p>
 
 ## Game Controls
- - A, S, Mouse Movement - Horizontal movement
- - Space, Left Mouse Button - Shooting
+ - A, D, Horizontal Arrow and Mouse Movement - Horizontal movement
+ - Space and Left Mouse Button - Shooting
 
 # Playable online at:
 > https://maikhenriquesp.github.io/CG-ShipBattle/public/CG-ShipBattle.html
