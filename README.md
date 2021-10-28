@@ -1,7 +1,7 @@
 # CG-ShipBattle
 Project developed as an assignment for the MCTA008-17 Computer Graphics class, it intends to use OpenGL and the library abcg to have a 2D interactive application.
 
-<p>The game objective is of a battle between ships in the space.</p>
+<p>The game lore is a battle between ships in the space.</p>
 
 ## Game Controls
  - A, S, Mouse Movement - Horizontal movement
