@@ -102,12 +102,12 @@ void EnemyShip::updatePosition(float deltaTime) {
 }
 
 void EnemyShip::updateShooting() {
-  if (m_bulletCoolDownTimer.elapsed() > 250.0 / 1000.0) {
-    std::uniform_real_distribution<float> m_randomShoot{0.0f, 1.0f};
-
-    if (Util::getRandomNumber(0.0f, 1.0f, false) > 0.9999f) {
+  if (m_bulletCoolDownTimer.elapsed() > 200.0 / 1000.0) {
+    std::uniform_real_distribution<float> m_randomShoot{0.0f, 1.0f};    
+    if (Util::getRandomNumber(0.0f, 1.0f, false) > 0.85f) {
       m_actionData.m_input.set(static_cast<size_t>(Action::Fire));
     } else {
+      m_bulletCoolDownTimer.restart();
       m_actionData.m_input.reset(static_cast<size_t>(Action::Fire));
     }
   }

@@ -1,5 +1,5 @@
 #ifndef ACTIONDATA_HPP_
-#define ACTIONTDATA_HPP_
+#define ACTIONDATA_HPP_
 
 #include <bitset>
 

@@ -8,7 +8,6 @@
 #include "abcg.hpp"
 #include "./bullets/bullets.hpp"
 #include "./ship/ship.hpp"
-#include "starlayers.hpp"
 #include "./enemy/enemy_ship.hpp"
 
 const float ENEMY_SHIP_START_POSITION = 0.90f;
