@@ -233,8 +233,8 @@ void OpenGLWindow::handleMouseButtonUp(SDL_Keycode keyCode) {
 void OpenGLWindow::handleMouseMotion() {
   glm::ivec2 mousePosition;
   SDL_GetMouseState(&mousePosition.x, &mousePosition.y);
-
-  float normalizedMousePosition = (mousePosition.x - 300.0f) / 300.0f;
+  float halfViewportWidth =  m_viewportWidth / 2.0f;
+  float normalizedMousePosition = (mousePosition.x - halfViewportWidth) / halfViewportWidth;
   m_ship.m_lastMousePosition = normalizedMousePosition;
 
   if (normalizedMousePosition > m_ship.m_translation.x) {
