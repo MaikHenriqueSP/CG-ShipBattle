@@ -8,7 +8,7 @@ Project developed as an assignment for the MCTA008-17 Computer Graphics class, i
  - Space and Left Mouse Button - Shooting
 
 ### Playable online at
-> https://maikhenriquesp.github.io/CG-ShipBattle/public/CG-ShipBattle.html
+> https://maikhenriquesp.github.io/CG-ShipBattle/public/CG-SpaceBattle.html
 
 ## Author
 <p>Maik Henrique</p>
