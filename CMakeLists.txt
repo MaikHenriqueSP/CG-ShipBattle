@@ -1,4 +1,4 @@
-project(CG-ShipBattle)
+project(CG-SpaceBattle)
 
 add_executable(${PROJECT_NAME} 
     main.cpp 
