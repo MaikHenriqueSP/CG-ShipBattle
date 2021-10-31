@@ -11,7 +11,7 @@ float Util::getRandomNumber(float start, float end, bool isNegativeAcceptable) {
 
   if (isNegativeAcceptable) {
     std::uniform_real_distribution<float> m_randomNegative{0, 1};
-    int rndNumber = m_randomNegative(m_randomEngine);
+    float rndNumber = m_randomNegative(m_randomEngine);
     int multiplier = rndNumber > 0.5f ? 1 : -1;
     result *= multiplier; 
   }
