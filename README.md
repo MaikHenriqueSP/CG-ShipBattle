@@ -7,7 +7,7 @@ Project developed as an assignment for the MCTA008-17 Computer Graphics class, i
  - A, D, Horizontal Arrows and Mouse Movement - Horizontal movement
  - Space and Left Mouse Button - Shooting
 
-### Playable online at
+### Online Page
 > https://maikhenriquesp.github.io/CG-SpaceBattle/public/CG-SpaceBattle.html
 
 ## Author
